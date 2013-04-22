@@ -1,0 +1,11 @@
+Indev 0.0.1
+- Initial public release
+
+Indev 0.0.2
+- Added a lot of new Planets (now 15 celestial bodies)
+- Added a framerate Counter
+- Cleaned up debug
+- Added names for planets
+- Added a debug feature to show how many Kuma days it takes to orbit
+- Added planet's orbital angle to debug
+- Changed internally how planets pick sizes, heightmaps, and radius
