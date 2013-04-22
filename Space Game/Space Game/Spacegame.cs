@@ -547,14 +547,14 @@ namespace Space_Game
                 #region Move
                 if (Keyboard.GetState().IsKeyDown(Keys.Left))
                 {
-                    winRot -= 0.01/zoom;
+                    winRot -= 0.01;
                     //winPos.X -= (float)(3 * FPS.getCommonDiff());
                     //trackedVeiwOffset.X -= (float)(3 * FPS.getCommonDiff());
                 }
 
                 if (Keyboard.GetState().IsKeyDown(Keys.Right))
                 {
-                    winRot += 0.01/zoom;
+                    winRot += 0.01;
                     //winPos.X += (float)(3 * FPS.getCommonDiff());
                     //trackedVeiwOffset.X += (float)(3 * FPS.getCommonDiff());
                 }
